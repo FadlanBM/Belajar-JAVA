@@ -1,0 +1,45 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class fungsiRekursif {
+    public static void main(String[] args) {
+        Scanner user =new Scanner(System.in);
+        System.out.println("Masukkan nilai : ");
+        int nilai= user.nextInt();
+        System.out.println("nilai yang anda masukkkan : " + nilai);
+
+        printnilai(nilai);
+        int jumlah =jumlahnilai(nilai);
+        System.out.println("jumlah = " + jumlah);
+
+        int faktorial =hitungfaktorial(nilai);
+        System.out.println("jumlah faktorial = " + faktorial);
+    }
+    private static int hitungfaktorial(int parameter){
+        System.out.println("parameter = " + parameter);
+
+        if (parameter==1){
+            return parameter;
+        }
+        return parameter*hitungfaktorial(parameter - 1);
+    }
+
+    private static int jumlahnilai(int parameter){
+        System.out.println("parameter = " + parameter);
+
+        if (parameter==0){
+            return parameter;
+        }
+        return parameter+jumlahnilai(parameter - 1);
+    }
+
+    private static void printnilai(int parameter){
+        System.out.println("nilai =" + parameter);
+        if (parameter==0){
+            return;
+        }
+        parameter--;
+        printnilai(parameter);
+    }
+}
