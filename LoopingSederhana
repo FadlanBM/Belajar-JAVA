@@ -1,0 +1,29 @@
+package com.company;
+import java.util.Scanner;
+
+public class LoopingSederhana  {
+    public static void main(String[] args) {
+        int nilai_awal, nilai_akhir;
+        Scanner user=new Scanner(System.in);
+        System.out.print("Masuukan nilai awal = ");
+        nilai_awal=user.nextInt();
+        System.out.print("Masukkan nilai akhir = ");
+        nilai_akhir=user.nextInt();
+
+        looping(nilai_awal,nilai_akhir);
+
+        looping(0,10);
+
+
+        }
+        private static void looping(int Nilai_Awal,int nilai_Akhir){
+        int total;
+        total=0;
+        while (Nilai_Awal<= nilai_Akhir){
+            total=total+Nilai_Awal;
+            System.out.println("Ditambah " + Nilai_Awal + " Menjadi " + total);
+            Nilai_Awal++;
+        }
+    }
+    }
+
