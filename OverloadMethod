@@ -1,0 +1,43 @@
+package com.company;
+
+public class OverloadMethod {
+    public static void main(String[] args) {
+      int hasilInteger;
+      hasilInteger=tambah(4,5);
+      printangka(hasilInteger);
+
+      float hasilfloat;
+      hasilfloat =tambah(4.5f,4);
+      printangka(hasilfloat);
+
+        hasilfloat = tambah(4,4.5f);
+        printangka(hasilfloat);
+
+        printangka(10);
+      printangka(10.5f);
+      printangka(10.5d);
+
+        System.out.println();
+    }
+    private static float tambah(int angkaint1,float angkafloat2){
+        return angkafloat2+angkaint1;
+    }
+
+    private static float tambah(float angkafloat1,int angkaint2){
+        return angkafloat1+angkaint2;
+    }
+
+    private static int tambah(int angkaint1,int angkaint2){
+        return angkaint1 + angkaint2;
+    }
+    private static void printangka(double angkadouble) {
+        System.out.println("angka ini adalah double dengan nilai =" + angkadouble);
+    }
+    private static void printangka(float angkafloat){
+        System.out.println("angka ini adalah float dengan nilai =" + angkafloat);
+    }
+
+    private static void printangka(int angkaInteger){
+        System.out.println("angka ini adalah integer dengan nilai =" + angkaInteger);
+    }
+}
