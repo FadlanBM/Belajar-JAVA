@@ -1,0 +1,21 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class FungsiMethod {
+    public static void main (String [] args){
+        Scanner user = new Scanner(System.in);
+        System.out.print("Masukkan nilai x :");
+        int x,y;
+        x=user.nextInt();
+        y=hitung(x);
+        System.out.println("x= " + x + ", y= " + y);
+    }
+    static int hitung (int input){
+        int hasil;
+
+        hasil=(input + 2)*input;
+
+        return hasil;
+    }
+}
