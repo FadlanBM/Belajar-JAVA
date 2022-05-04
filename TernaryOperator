@@ -1,0 +1,18 @@
+package com.company;
+import java.util.*;
+public class  TernaryOperator {
+    public static void main(String[] args) {
+        // Ternary operator
+        // variable X = Ekspresi ? Statement_true : statement_false
+
+        int input,x;
+
+        Scanner Userinput=new Scanner(System.in);
+        System.out.print("Masukan nilai : ");
+        input=Userinput.nextInt();
+        System.out.println(input);
+
+        x=(input==10) ? (input*input) : (input/2);
+        System.out.printf("hasil nya adalah : %d\n",x);
+    }
+}
