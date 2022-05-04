@@ -1,0 +1,24 @@
+package com.company;
+
+public class Unary {
+    public static void main(String[] args) {
+        System.out.println("Unary increment dam dicrement");
+        int a=10,b=10;
+        a--;
+        a--;
+        System.out.printf("a=%d\n",a);
+
+        b++;
+        b++;
+        System.out.printf("b=%d ",b);
+
+        a=12;
+        System.out.printf("nilai '++' prefix menjadi = %d \n", ++a);
+        System.out.printf("nilai '++' postfix menjadi = %d\n", b++);
+        System.out.printf("nilai '++' postfix menjadi = %d\n", b);
+
+        boolean samsul=false;
+        System.out.println("nilai boolean = " + samsul);
+        System.out.println("nilai boolean = " + !samsul);
+    }
+}
