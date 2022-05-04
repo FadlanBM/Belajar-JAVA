@@ -1,0 +1,27 @@
+package com.company;
+
+public class ControlFlow {
+    public static void main(String[] args) {
+        //break,continue,dan return
+
+        //break
+
+        int a=0;
+        while (true){
+            a++;
+            if (a==10){
+                break;
+                //ini adalah keyword untuk memaksa keluar dari looping
+            }else if (a==5){
+                continue;
+                //ini dalah keyword untuk memaksa melalui aksi dari awal
+            }else if (a==7){
+                return;
+            }
+
+            System.out.println("looping ke - " + a);
+        }
+        System.out.println("akkhir dari looping");
+    }
+
+}
