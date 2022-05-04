@@ -1,0 +1,26 @@
+package com.company;
+
+public class LoopingArrayForEach {
+    public static void main(String[] args) {
+        int [] arrayangka={1,2,3,4,5,6,7,8,9,10,19};
+
+        // Looping standard
+        System.out.println("looping standard");
+        for (int i=0; i<10; i++){
+            System.out.println("index ke- " + i + " adalah " + arrayangka[i]);
+        }
+
+        //looping dengan properti array
+        System.out.println("Looing dengan properti length");
+        for (int i=0; i<arrayangka.length; i++){
+            System.out.println("index ke- " + i + " adalah " + arrayangka[i]);
+        }
+
+        //looping khusus untuk coolection <- array
+        System.out.println("looping for each");
+        for (int angka : arrayangka){
+            System.out.println("angka pada looping ini = " + angka);
+        }
+
+    }
+}
