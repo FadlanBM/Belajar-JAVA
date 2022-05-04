@@ -1,0 +1,82 @@
+public class OperasiLogika {
+    public static void main(String[] args) {
+        boolean a,b,c;
+        System.out.println("========Operator Logika OR========");
+        a=true;
+        b=true;
+        c=(a||b);
+        System.out.printf("%s || %s =%s\n",a,b,c);
+
+        a=true;
+        b=false;
+        c=(a||b);
+        System.out.printf("%s || %s =%s\n",a,b,c);
+
+        a=false;
+        b=true;
+        c=(a||b);
+        System.out.printf("%s || %s =%s\n",a,b,c);
+
+        a=false;
+        b=false;
+        c=(a||b);
+        System.out.printf("%s || %s= %s\n",a,b,c);
+
+        System.out.println("======Operator Logika AND=========");
+
+        a=true;
+        b=true;
+        c=(a&&b);
+        System.out.printf("%s && %s =%s\n",a,b,c);
+
+        a=true;
+        b=false;
+        c=(a&&b);
+        System.out.printf("%s && %s =%s\n",a,b,c);
+
+        a=false;
+        b=true;
+        c=(a&&b);
+        System.out.printf("%s && %s =%s\n",a,b,c);
+
+        a=false;
+        b=false;
+        c=(a&&b);
+        System.out.printf("%s && %s= %s\n",a,b,c);
+
+        a=true;
+        c=(!a);
+        System.out.printf("%s ! =%s\n",a,c);
+
+        System.out.println("======Operator Logika XOR =========");
+
+        a=true;
+        b=true;
+        c=(a^b);
+        System.out.printf("%s ^ %s =%s\n",a,b,c);
+
+        a=true;
+        b=false;
+        c=(a^b);
+        System.out.printf("%s ^ %s =%s\n",a,b,c);
+
+        a=false;
+        b=true;
+        c=(a^b);
+        System.out.printf("%s ^ %s =%s\n",a,b,c);
+
+        a=false;
+        b=false;
+        c=(a^b);
+        System.out.printf("%s ^ %s= %s\n",a,b,c);
+
+        System.out.println("======Not / negasi---> fliping (!)======");
+        a=true;
+        c=(!a);
+        System.out.printf("%s ! =%s\n",a,c);
+
+        a=false;
+        c=(!a);
+        System.out.printf("%s ! =%s\n",a,c);
+    }
+}
