@@ -1,0 +1,25 @@
+package com.company;
+import java.util.*;
+public class Switchcase {
+    public static void main(String[] args) {
+
+        String input;
+        Scanner inputuser=new Scanner(System.in);
+
+        System.out.print("Panggil nama : ");
+        input=inputuser.next();
+        System.out.println(input);
+        switch (input){
+            case "otong":
+                System.out.println("Saya otong Terdaftar");
+                break;
+            case "ucup":
+                System.out.println("saya ucup Terdaftar");
+                break;
+            case "mario":
+                System.out.println("saya mario Terdaftar");
+            default:
+                System.out.println(input + " Tidak terdaftar ");
+        }
+    }
+}
