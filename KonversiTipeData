@@ -1,0 +1,20 @@
+public class KonversiTipeData {
+    public static void main(String[] args) {
+        int a= 450;
+        System.out.println("nilai int = " + a);
+
+        // Memperluas Rentan Nilai ke Tipe data yang lebih besar
+        long along= a;
+        System.out.println("nilai long = "+ along);
+
+        //Memperkecil rentan ke tipe data yang lebih kecil
+        byte abyte = (byte) a;
+        System.out.println("nilai byte = "+ abyte);
+
+        a=10;
+        int b=4;
+        float c=(float)a/b;
+        System.out.printf("%d : %d = %f\n",a,b,c);
+    }
+}
+
