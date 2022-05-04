@@ -1,0 +1,16 @@
+package com.company;
+
+public class  WhileLoop {
+    public static void main(String[] args) {
+        short a=0;
+        boolean kondisi = true;
+        while (kondisi){
+            System.out.println("while loop " + a);
+            if (a == 300){
+                kondisi = false;
+
+            }
+            a++;
+        }
+    }
+}
