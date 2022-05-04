@@ -1,0 +1,71 @@
+package com.company;
+
+public class TipeData {
+    public static void main(String[] args) {
+        //macam macam tipe data
+        // byte short integer long float double char boolean
+
+        System.out.println("=======Byte=======");
+        byte b =19;
+        System.out.println("nilai byte b = " + b);
+        System.out.println("Nilai Max =" + Byte.MAX_VALUE);
+        System.out.println("Nilai min =" + Byte.MIN_VALUE);
+        System.out.println("Nilai byte =" + Byte.BYTES);
+        System.out.println("Nilai bit = " + Byte.SIZE + " Bit ");
+
+        System.out.println("=======short=======");
+        short s =19;
+        System.out.println("nilai Short s = " + s);
+        System.out.println("Nilai Max =" + Short.MAX_VALUE);
+        System.out.println("Nilai min =" + Short.MIN_VALUE);
+        System.out.println("Nilai byte =" + Short.BYTES);
+        System.out.println("Nilai bit = " + Short.SIZE + " Bit ");
+
+        System.out.println("=======INTEGER=======");
+        int i =19;
+        System.out.println("nilai integer i = " + i);
+        System.out.println("Nilai Max =" + Integer.MAX_VALUE);
+        System.out.println("Nilai min =" + Integer.MIN_VALUE);
+        System.out.println("Nilai byte =" + Integer.BYTES);
+        System.out.println("Nilai bit = " + Integer.SIZE + " Bit ");
+
+        System.out.println("=======Long=======");
+        long l =19L;
+        System.out.println("nilai long l = " + l);
+        System.out.println("Nilai Max =" + Long.MAX_VALUE);
+        System.out.println("Nilai min =" + Long.MIN_VALUE);
+        System.out.println("Nilai byte =" + Long.BYTES);
+        System.out.println("Nilai bit = " + Long.SIZE + " Bit ");
+
+        System.out.println("=======Float=======");
+        float f =1.9f;
+        System.out.println("nilai float f = " + f);
+        System.out.println("Nilai Max =" + Float.MAX_VALUE);
+        System.out.println("Nilai min =" + Float.MIN_VALUE);
+        System.out.println("Nilai byte =" + Float.BYTES);
+        System.out.println("Nilai bit = " + Float.SIZE + " Bit ");
+
+        System.out.println("=======Double=======");
+        double d =19;
+        System.out.println("nilai double d = " + d);
+        System.out.println("Nilai Max =" + Double.MAX_VALUE);
+        System.out.println("Nilai min =" + Double.MIN_VALUE);
+        System.out.println("Nilai byte =" + Double.BYTES);
+        System.out.println("Nilai bit = " + Double.SIZE + " Bit ");
+
+        System.out.println("=======Char=======");
+        char c =12 ;
+        System.out.println("nilai char c = " + c);
+        System.out.println("Nilai Max =" + Character.MAX_VALUE);
+        System.out.println("Nilai min =" + Character.MIN_VALUE);
+        System.out.println("Nilai byte =" + Character.BYTES);
+        System.out.println("Nilai bit = " + Character.SIZE + " Bit ");
+
+        System.out.println("=======Boolean=======");
+        boolean bo =true;
+        System.out.println("nilai Boolean bo = " + bo);
+        boolean bw =false;
+        System.out.println("nilai Boolean bw = " + bw);
+
+    }
+}
