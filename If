@@ -1,0 +1,35 @@
+package com.company;
+
+public class If {
+    public static void main(String[] args) {
+        // if else
+        int a=10;
+        if (a==12){
+            System.out.println("Jawaban Anda benar");
+        }else {
+            System.out.println("Jawaban anda salah");
+        }
+
+        // if else if
+
+        if (a==10) {
+            System.out.println("halo");
+        }else if (a==10){
+            System.out.println("aja");
+        }else {
+            System.out.println("aka");
+        }
+
+        // if
+        int b=19;
+        if (a==1){
+            if (b==19){
+                System.out.println("jawaban benar");
+            }else {
+                System.out.println("jawaban salah satu salah");
+            }
+        }else {
+            System.out.println("jawaban salah semua");
+        }
+    }
+}
