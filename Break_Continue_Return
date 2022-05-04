@@ -1,0 +1,23 @@
+package com.company;
+
+public class Break_Continue_Return {
+    public static void main(String[] args) {
+        //Break,continue,return
+
+        int a=0;
+        boolean mk=true;
+        while (mk){
+            a++;
+
+            if (a==10){
+                break;//untuk memaksa untuk keluar dari looping
+            } else if (a==5){
+                continue;//untuk memaksa memulai aksi dari
+            } else if (a==7){
+                return;//untuk memaksa keluar dari program
+            }
+            System.out.println("Loopingg ke " + a);
+        }
+        System.out.println("akhir program");
+    }
+}
