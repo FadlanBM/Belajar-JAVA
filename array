@@ -1,0 +1,29 @@
+package com.company;
+
+import java.util.Arrays;
+
+public class array {
+    public static void main(String[] args) {
+//        String[] stringsArray=new String[3];
+//                stringsArray[0]="eko";
+//                stringsArray[1]="samsul";
+//                stringsArray[2]="budi";
+//            System.out.println(stringsArray[0]);
+//            System.out.println(stringsArray[1]);
+//            System.out.println(stringsArray[2]);
+
+            int[] arrayInt=new int[]{
+                    1,2,3,4,5
+            };
+        System.out.println(Arrays.toString(arrayInt));
+        System.out.println(arrayInt[1]);
+            long[] arrayLog={
+                1L,2L,3L,4L,5L
+        };
+            String[]  stringsArry={
+              "dudi","budi","samsul"
+            };
+        System.out.println(stringsArry[0]);
+        System.out.println(Arrays.toString(stringsArry));
+    }
+}
