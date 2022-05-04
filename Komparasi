@@ -1,0 +1,36 @@
+public class Komparasi {
+    public static void main(String[] args) {
+        int a,b;
+        float d,x;
+        System.out.println("Operator Perbandingan (==) ");
+        d=10.0f;
+        x=10.00f;
+        System.out.printf("%f == %f = %s\n",d,x,(d==x));
+
+        System.out.println("Operator perbandingan (!=) ");
+        a=10;
+        b=9;
+        System.out.printf("%d != %d = %s\n",a,b,(a!=b));
+
+        System.out.println("Operator perbandingan (<) ");
+        a=10;
+        b=8;
+        System.out.printf("%d < %d =%s\n",a,b,(b<a));
+
+        System.out.println("Operator perbandingan (>)");
+        a=10;
+        b=12;
+        System.out.printf("%d > %d = %s\n",a,b,(b>a));
+
+        System.out.println("Operator perbandingan (<=) ");
+        a=7;
+        b=9;
+        System.out.printf("%d <= %d =%s\n",a,b,(a<=b));
+
+        System.out.println("Operator Perbandingan (>=) ");
+        a=10;
+        b=9;
+        System.out.printf("%d >= %d = %s\n",a,b,(a>=b));
+    }
+
+}
