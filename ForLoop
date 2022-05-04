@@ -1,0 +1,33 @@
+package com.company;
+
+public class ForLoop {
+    public static void main(String[] args) {
+        System.out.println("Ini adalah awal program");
+        for (int a=0; a<=10; a++){
+            System.out.println("for loop ke " + a);
+         }
+        System.out.println("Ini adalh akhir program");
+
+
+        System.out.println("Loop ke 2");
+        for (int a=0; a<10; a++){
+            System.out.println("for loop ke " + a);
+        }
+        System.out.println("Ini adalh akhir program");
+
+
+        System.out.println("Loop ke 3");
+        for (int a=10; a>=0; a--){
+            System.out.println("for loop ke " + a);
+        }
+        System.out.println("Ini adalh akhir program");
+
+
+        System.out.println("Loop ke 4");
+        int a=0;
+        for (; a<10; a++){
+            System.out.println("for loop ke " + a);
+        }
+        System.out.println("Ini adalh akhir program");
+    }
+}
