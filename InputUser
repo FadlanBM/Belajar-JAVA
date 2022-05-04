@@ -1,0 +1,11 @@
+package com.company;
+import java.util.*;
+public class InputUser {
+    public static void main(String[] args) {
+        Scanner user=new Scanner(System.in);
+        int ba=user.nextInt();
+        int ca=user.nextInt();
+        int b=ba+ca;
+        System.out.printf("%d + %d = %d\n",ba,ca,b);
+    }
+}
