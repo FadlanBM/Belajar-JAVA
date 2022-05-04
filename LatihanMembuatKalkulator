@@ -1,0 +1,37 @@
+package com.company;
+import java.util.*;
+public class LatihanMembuatKalkulator {
+    public static void main(String[] args) {
+
+        int a,b,hasil;
+        float pembagian;
+        char operator;
+
+        Scanner userinput=new Scanner(System.in);
+        System.out.print("Nilai a : ");
+        a=userinput.nextInt();
+        System.out.print("Operator : ");
+        operator=userinput.next().charAt(0);
+        System.out.print("Nilai b :");
+        b=userinput.nextInt();
+
+        System.out.println("Input user :" + a + " " + operator + " " + b);
+
+        // Operator
+           if (operator == '+'){
+               hasil=a+b;
+               System.out.printf("hasil = %d",hasil);
+           }else if (operator == '-'){
+               hasil=a-b;
+               System.out.printf("hasil = %d",hasil);
+           }else if (operator == 'x'){
+               hasil=a*b;
+               System.out.printf("hasil = %d",hasil);
+           }else  if (operator == ':'){
+               pembagian=(float) a/b;
+               System.out.println("Hasil = " + pembagian);
+           }else {
+               System.out.println("Operator tidak di temukan");
+           }
+    }
+}
